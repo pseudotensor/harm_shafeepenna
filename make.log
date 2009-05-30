@@ -1,0 +1,868 @@
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c init.c -lm
+init.c(811): (col. 5) remark: BLOCK WAS VECTORIZED.
+init.c(435): (col. 3) remark: BLOCK WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c initbase.c -lm
+initbase.c(3497): (col. 3) remark: LOOP WAS VECTORIZED.
+initbase.c(802): (col. 3) remark: BLOCK WAS VECTORIZED.
+initbase.c(820): (col. 7) remark: LOOP WAS VECTORIZED.
+initbase.c(825): (col. 2) remark: LOOP WAS VECTORIZED.
+initbase.c(826): (col. 20) remark: LOOP WAS VECTORIZED.
+initbase.c(848): (col. 15) remark: LOOP WAS VECTORIZED.
+initbase.c(851): (col. 26) remark: LOOP WAS VECTORIZED.
+initbase.c(1022): (col. 3) remark: LOOP WAS VECTORIZED.
+initbase.c(3300): (col. 3) remark: BLOCK WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c initbase.gridsectioning.c -lm
+initbase.gridsectioning.c(491): (col. 3) remark: BLOCK WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c restart.c -lm
+restart.rebeccaoldcode.c(436): (col. 5) remark: LOOP WAS VECTORIZED.
+restart.c(908): (col. 5) remark: LOOP WAS VECTORIZED.
+restart.c(911): (col. 43) remark: LOOP WAS VECTORIZED.
+restart.rebeccaoldcode.c(161): (col. 41) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c set_arrays.c -lm
+set_arrays.c(86): (col. 22) remark: LOOP WAS VECTORIZED.
+set_arrays.c(211): (col. 3) remark: LOOP WAS VECTORIZED.
+set_arrays.c(215): (col. 5) remark: LOOP WAS VECTORIZED.
+set_arrays.c(216): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c set_grid.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c advance.c -lm
+advance.c(1809): (col. 7) remark: LOOP WAS VECTORIZED.
+advance.c(1809): (col. 7) remark: LOOP WAS VECTORIZED.
+advance.c(533): (col. 7) remark: LOOP WAS VECTORIZED.
+advance.c(2190): (col. 3) remark: LOOP WAS VECTORIZED.
+advance.c(2190): (col. 3) remark: LOOP WAS VECTORIZED.
+advance.c(910): (col. 7) remark: LOOP WAS VECTORIZED.
+advance.c(911): (col. 7) remark: LOOP WAS VECTORIZED.
+advance.c(912): (col. 7) remark: LOOP WAS VECTORIZED.
+advance.c(1072): (col. 5) remark: LOOP WAS VECTORIZED.
+advance.c(1073): (col. 5) remark: LOOP WAS VECTORIZED.
+advance.c(1074): (col. 5) remark: LOOP WAS VECTORIZED.
+advance.c(1122): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c reconstructeno.c -lm
+reconstructeno.weightmin.c(1210): remark #111: statement is unreachable
+    copy_weno5_weights(preforder, weno_weights_in, stencil_weights_array_other);
+    ^
+
+reconstructeno.c(1410): (col. 5) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1458): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1488): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1488): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1504): (col. 31) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1504): (col. 31) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1514): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1527): (col. 17) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1527): (col. 17) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1541): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1541): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1731): (col. 5) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1765): (col. 5) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1781): (col. 5) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1827): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1827): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1844): (col. 31) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1844): (col. 31) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1855): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1869): (col. 17) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1869): (col. 17) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1882): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1882): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1611): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1628): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1628): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1629): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1629): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1631): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1946): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1953): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1953): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1954): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1954): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.weightmin.c(748): (col. 19) remark: LOOP WAS VECTORIZED.
+reconstructeno.weightmin.c(722): (col. 5) remark: LOOP WAS VECTORIZED.
+reconstructeno.weightmin.c(821): (col. 19) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(224): (col. 9) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(224): (col. 9) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(600): (col. 13) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(600): (col. 13) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(272): (col. 10) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(272): (col. 10) remark: LOOP WAS VECTORIZED.
+reconstructeno.weightmin.c(1027): (col. 5) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1153): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1153): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1153): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1154): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1154): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1154): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1032): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1041): (col. 9) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1067): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1067): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1058): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(1058): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(970): (col. 3) remark: LOOP WAS VECTORIZED.
+reconstructeno.c(970): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c paraenohybrid.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c flux.c -lm
+flux.c(686): (col. 7) remark: LOOP WAS VECTORIZED.
+flux.c(994): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c flux.mergedc2ea2cmethod.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c higherorder_pointavg.c -lm
+higherorder_pointavg.c(1889): (col. 5) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1890): (col. 5) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2573): (col. 3) remark: BLOCK WAS VECTORIZED.
+higherorder_pointavg.c(1324): (col. 5) remark: BLOCK WAS VECTORIZED.
+higherorder_pointavg.c(1764): (col. 2) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1765): (col. 2) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1816): (col. 39) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1816): (col. 39) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1816): (col. 39) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1058): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1059): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2430): (col. 26) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2430): (col. 26) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2430): (col. 26) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(790): (col. 3) remark: BLOCK WAS VECTORIZED.
+higherorder_pointavg.c(837): (col. 2) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(838): (col. 2) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(878): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(878): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(878): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(940): (col. 3) remark: BLOCK WAS VECTORIZED.
+higherorder_pointavg.c(940): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(940): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(940): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(940): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(940): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(577): (col. 3) remark: BLOCK WAS VECTORIZED.
+higherorder_pointavg.c(617): (col. 2) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(618): (col. 2) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(649): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(649): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(649): (col. 4) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(262): (col. 5) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(263): (col. 5) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2355): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2355): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2355): (col. 3) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(45): (col. 3) remark: BLOCK WAS VECTORIZED.
+higherorder_pointavg.c(708): (col. 22) remark: BLOCK WAS VECTORIZED.
+higherorder_pointavg.c(708): (col. 22) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(708): (col. 22) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(708): (col. 22) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(708): (col. 22) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(708): (col. 22) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1570): (col. 7) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(1571): (col. 7) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2148): (col. 5) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2149): (col. 5) remark: LOOP WAS VECTORIZED.
+higherorder_pointavg.c(2150): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c wavespeeds.c -lm
+wavespeeds.c(216): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c boundsflux.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c fluxct.c -lm
+fluxct.c(207): (col. 7) remark: LOOP WAS VECTORIZED.
+fluxct.c(371): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(380): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(389): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(276): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(294): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(312): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(501): (col. 7) remark: LOOP WAS VECTORIZED.
+fluxct.c(915): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(932): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxct.c(46): (col. 3) remark: BLOCK WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c fluxctstag.c -lm
+fluxctstag.c(866): (col. 3) remark: BLOCK WAS VECTORIZED.
+fluxctstag.c(881): (col. 3) remark: LOOP WAS VECTORIZED.
+fluxctstag.c(343): (col. 3) remark: BLOCK WAS VECTORIZED.
+fluxctstag.c(399): (col. 28) remark: LOOP WAS VECTORIZED.
+fluxctstag.c(1270): (col. 3) remark: BLOCK WAS VECTORIZED.
+fluxctstag.c(1286): (col. 3) remark: LOOP WAS VECTORIZED.
+fluxctstag.c(82): (col. 3) remark: BLOCK WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c fluxcompute.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c fluxvpot.c -lm
+fluxvpot.c(633): remark #111: statement is unreachable
+    copy_vpot2flux(vpotarray);
+    ^
+
+fluxvpot.c(885): remark #111: statement is unreachable
+    Nvec[0]=0;
+    ^
+
+fluxvpot.c(554): (col. 3) remark: BLOCK WAS VECTORIZED.
+fluxvpot.c(734): (col. 3) remark: BLOCK WAS VECTORIZED.
+fluxvpot.c(398): (col. 3) remark: BLOCK WAS VECTORIZED.
+fluxvpot.c(434): (col. 5) remark: LOOP WAS VECTORIZED.
+fluxvpot.c(1116): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c bounds.c -lm
+bounds.c(1791): (col. 7) remark: LOOP WAS VECTORIZED.
+bounds.c(1769): (col. 5) remark: LOOP WAS VECTORIZED.
+bounds.c(1772): (col. 5) remark: LOOP WAS VECTORIZED.
+bounds.c(1773): (col. 5) remark: LOOP WAS VECTORIZED.
+bounds.c(113): (col. 3) remark: LOOP WAS VECTORIZED.
+bounds.c(95): (col. 3) remark: LOOP WAS VECTORIZED.
+bounds.c(894): (col. 5) remark: LOOP WAS VECTORIZED.
+bounds.c(931): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c boundsint.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c diag.c -lm
+diag.c(1924): (col. 5) remark: LOOP WAS VECTORIZED.
+diag.c(1958): (col. 5) remark: LOOP WAS VECTORIZED.
+diag.c(1966): (col. 5) remark: LOOP WAS VECTORIZED.
+diag.c(1813): (col. 4) remark: LOOP WAS VECTORIZED.
+diag.c(1819): (col. 4) remark: LOOP WAS VECTORIZED.
+diag.c(1771): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(1777): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(1777): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(1012): (col. 7) remark: LOOP WAS VECTORIZED.
+diag.c(1080): (col. 4) remark: LOOP WAS VECTORIZED.
+diag.c(1099): (col. 4) remark: LOOP WAS VECTORIZED.
+diag.c(1112): (col. 8) remark: LOOP WAS VECTORIZED.
+diag.c(1114): (col. 8) remark: LOOP WAS VECTORIZED.
+diag.c(1116): (col. 8) remark: LOOP WAS VECTORIZED.
+diag.c(1118): (col. 8) remark: LOOP WAS VECTORIZED.
+diag.c(1148): (col. 4) remark: LOOP WAS VECTORIZED.
+diag.c(1152): (col. 4) remark: LOOP WAS VECTORIZED.
+diag.c(1294): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(64): (col. 5) remark: LOOP WAS VECTORIZED.
+diag.c(71): (col. 7) remark: LOOP WAS VECTORIZED.
+diag.c(83): (col. 7) remark: LOOP WAS VECTORIZED.
+diag.c(1551): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(1553): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(1555): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(1557): (col. 2) remark: LOOP WAS VECTORIZED.
+diag.c(1436): (col. 5) remark: LOOP WAS VECTORIZED.
+diag.c(1462): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c dump.c -lm
+dump.c(753): (col. 7) remark: LOOP WAS VECTORIZED.
+dump.c(755): (col. 7) remark: LOOP WAS VECTORIZED.
+dump.c(757): (col. 7) remark: LOOP WAS VECTORIZED.
+dump.c(759): (col. 7) remark: LOOP WAS VECTORIZED.
+dump.c(187): (col. 7) remark: LOOP WAS VECTORIZED.
+dump.c(189): (col. 7) remark: LOOP WAS VECTORIZED.
+dump.c(191): (col. 7) remark: LOOP WAS VECTORIZED.
+dump.c(193): (col. 7) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c dumpgen.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c dump_ener.c -lm
+dump_ener.c(950): (col. 3) remark: LOOP WAS VECTORIZED.
+dump_ener.c(956): (col. 7) remark: LOOP WAS VECTORIZED.
+dump_ener.c(1015): (col. 8) remark: LOOP WAS VECTORIZED.
+dump_ener.c(1015): (col. 8) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c image.c -lm
+image.c(175): (col. 4) remark: LOOP WAS VECTORIZED.
+image.c(208): (col. 4) remark: LOOP WAS VECTORIZED.
+image.c(351): (col. 6) remark: LOOP WAS VECTORIZED.
+image.c(351): (col. 6) remark: LOOP WAS VECTORIZED.
+image.c(110): (col. 9) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c fail.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c fixup.c -lm
+fixup.c(2708): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(2754): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2784): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2809): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2809): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2809): (col. 5) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(2592): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(2601): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(2622): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(2640): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(2654): (col. 10) remark: LOOP WAS VECTORIZED.
+fixup.c(2654): (col. 10) remark: LOOP WAS VECTORIZED.
+fixup.c(2654): (col. 10) remark: LOOP WAS VECTORIZED.
+fixup.c(2654): (col. 10) remark: LOOP WAS VECTORIZED.
+fixup.c(2362): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2376): (col. 3) remark: LOOP WAS VECTORIZED.
+fixup.c(2481): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2493): (col. 7) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(2556): (col. 3) remark: LOOP WAS VECTORIZED.
+fixup.c(2556): (col. 3) remark: LOOP WAS VECTORIZED.
+fixup.c(2556): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(393): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(393): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(500): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(502): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(528): (col. 7) remark: LOOP WAS VECTORIZED.
+fixup.c(122): (col. 8) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(122): (col. 8) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(122): (col. 8) remark: LOOP WAS VECTORIZED.
+fixup.c(122): (col. 8) remark: LOOP WAS VECTORIZED.
+fixup.c(122): (col. 8) remark: LOOP WAS VECTORIZED.
+fixup.c(1013): (col. 2) remark: LOOP WAS VECTORIZED.
+fixup.c(1365): (col. 21) remark: LOOP WAS VECTORIZED.
+fixup.c(1370): (col. 6) remark: LOOP WAS VECTORIZED.
+fixup.c(1382): (col. 21) remark: LOOP WAS VECTORIZED.
+fixup.c(1388): (col. 21) remark: LOOP WAS VECTORIZED.
+fixup.c(1395): (col. 8) remark: LOOP WAS VECTORIZED.
+fixup.c(1596): (col. 6) remark: LOOP WAS VECTORIZED.
+fixup.c(2197): (col. 3) remark: LOOP WAS VECTORIZED.
+fixup.c(2296): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2296): (col. 5) remark: LOOP WAS VECTORIZED.
+fixup.c(2296): (col. 5) remark: PARTIAL LOOP WAS VECTORIZED.
+fixup.c(259): (col. 4) remark: LOOP WAS VECTORIZED.
+fixup.c(277): (col. 4) remark: LOOP WAS VECTORIZED.
+fixup.c(281): (col. 4) remark: PARTIAL LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c mpi_init.c -lm
+mpi_init.c(53): remark #1704: zero-length format string
+    sprintf(myidtxt, "");
+                       ^
+
+mpi_init.c(354): (col. 3) remark: LOOP WAS VECTORIZED.
+mpi_init.c(367): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+mpi_init.c(441): (col. 3) remark: BLOCK WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c mpi_fileio.c -lm
+mpi_fileio.c(2489): remark #181: argument is incompatible with corresponding format string conversion
+  	if (datatype == MPI_UNSIGNED_CHAR) fscanf(stream[streamnum],"%c",&ptr1[pl]); // ok to get remark #181 in icc
+  	                                                                 ^
+
+mpi_fileio.c(2147): (col. 3) remark: LOOP WAS VECTORIZED.
+mpi_fileio.c(2147): (col. 3) remark: LOOP WAS VECTORIZED.
+mpi_fileio.c(2147): (col. 3) remark: LOOP WAS VECTORIZED.
+mpi_fileio.c(2780): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c boundmpi.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c boundmpiint.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c interppoint.c -lm
+interppoint.c(154): (col. 2) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c interppoint.para.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c interpline.c -lm
+interpline.c(2621): (col. 5) remark: LOOP WAS VECTORIZED.
+interpline.c(2565): (col. 5) remark: LOOP WAS VECTORIZED.
+interpline.c(2598): (col. 5) remark: LOOP WAS VECTORIZED.
+interpline.c(1879): (col. 3) remark: LOOP WAS VECTORIZED.
+interpline.c(947): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(947): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(947): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(959): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(959): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(959): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(960): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(960): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(963): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(963): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(963): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(599): (col. 2) remark: LOOP WAS VECTORIZED.
+interpline.c(682): (col. 18) remark: LOOP WAS VECTORIZED.
+interpline.c(712): (col. 18) remark: LOOP WAS VECTORIZED.
+interpline.c(1013): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(1013): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(1013): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(1030): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(1030): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(1030): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(1033): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(1033): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(1033): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.c(2725): (col. 5) remark: LOOP WAS VECTORIZED.
+interpline.c(2762): (col. 5) remark: LOOP WAS VECTORIZED.
+interpline.c(330): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(354): (col. 23) remark: LOOP WAS VECTORIZED.
+interpline.c(1791): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c interpline.para.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c interpline.mono.c -lm
+interpline.mono.c(356): (col. 5) remark: LOOP WAS VECTORIZED.
+interpline.mono.c(261): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c interpline.jmono.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c interpline.smono.c -lm
+interpline.smono.c(239): (col. 16) remark: LOOP WAS VECTORIZED.
+interpline.smono.c(49): (col. 7) remark: LOOP WAS VECTORIZED.
+interpline.smono.c(29): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c main.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c mytime.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c metric.c -lm
+metric.c(3772): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(3777): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(3813): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(3341): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(2137): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(296): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(313): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(332): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(351): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(2014): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(2456): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(2175): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(2083): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+metric.c(3125): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(2703): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(2753): (col. 7) remark: LOOP WAS VECTORIZED.
+metric.c(2790): (col. 7) remark: LOOP WAS VECTORIZED.
+metric.c(1860): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1860): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1860): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1825): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1825): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1825): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1837): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1837): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1837): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1848): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1848): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1848): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1770): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1770): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1770): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1779): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1779): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1779): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1732): (col. 5) remark: LOOP WAS VECTORIZED.
+metric.c(1739): (col. 5) remark: BLOCK WAS VECTORIZED.
+metric.c(1739): (col. 5) remark: LOOP WAS VECTORIZED.
+metric.c(1739): (col. 5) remark: LOOP WAS VECTORIZED.
+metric.c(1750): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1750): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1750): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1703): (col. 5) remark: LOOP WAS VECTORIZED.
+metric.c(1760): (col. 3) remark: BLOCK WAS VECTORIZED.
+metric.c(1760): (col. 3) remark: LOOP WAS VECTORIZED.
+metric.c(1760): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c metric_tools.c -lm
+metric_tools.c(90): (col. 5) remark: LOOP WAS VECTORIZED.
+metric_tools.c(113): (col. 7) remark: LOOP WAS VECTORIZED.
+metric_tools.c(114): (col. 7) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c math_tools.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c metric_selfgravity_or_evolvemetric.c -lm
+metric_selfgravity_or_evolvemetric.c(425): remark #111: statement is unreachable
+    get_new_metric_parms(&MBHpar, &apar, &QBHpar);
+    ^
+
+metric_selfgravity_or_evolvemetric.c(622): remark #111: statement is unreachable
+    specialstep=2; // signifies to rest of code below that evolving on substeps
+    ^
+
+metric_selfgravity_or_evolvemetric.c(905): remark #128: loop is not reachable from preceding code
+    COMPFULLLOOPP1{
+    ^
+
+metric_selfgravity_or_evolvemetric.c(1175): remark #111: statement is unreachable
+    set_boundloop(boundvartype, inboundloop,outboundloop,innormalloop,outnormalloop,inoutlohi, &riin, &riout, &rjin, &rjout, &rkin, &rkout);
+    ^
+
+metric_selfgravity_or_evolvemetric.c(2388): remark #111: statement is unreachable
+    return(1); // shouldn't get here
+    ^
+
+metric_selfgravity_or_evolvemetric.c(2603): (col. 4) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c coord.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c phys.c -lm
+phys.c(2890): (col. 7) remark: LOOP WAS VECTORIZED.
+phys.c(2904): (col. 7) remark: LOOP WAS VECTORIZED.
+phys.c(2728): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2734): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2742): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2748): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2755): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2527): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(2482): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(2434): (col. 5) remark: LOOP WAS VECTORIZED.
+phys.c(2437): (col. 5) remark: LOOP WAS VECTORIZED.
+phys.c(2365): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(2404): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(2184): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2186): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2189): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2190): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2191): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2193): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2194): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2195): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2231): (col. 2) remark: BLOCK WAS VECTORIZED.
+phys.c(2249): (col. 2) remark: BLOCK WAS VECTORIZED.
+phys.c(2080): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2081): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2082): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2083): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2085): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2086): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2087): (col. 5) remark: BLOCK WAS VECTORIZED.
+phys.c(2096): (col. 7) remark: BLOCK WAS VECTORIZED.
+phys.c(1443): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(1470): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(1217): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+phys.c(788): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(788): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(788): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(789): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(792): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(2927): (col. 7) remark: LOOP WAS VECTORIZED.
+phys.c(2941): (col. 7) remark: LOOP WAS VECTORIZED.
+phys.c(880): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(833): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(833): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(931): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(938): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(703): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(703): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(707): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(1079): (col. 26) remark: LOOP WAS VECTORIZED.
+phys.c(900): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(907): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.c(688): (col. 31) remark: LOOP WAS VECTORIZED.
+phys.c(677): (col. 31) remark: LOOP WAS VECTORIZED.
+phys.c(677): (col. 31) remark: LOOP WAS VECTORIZED.
+phys.c(209): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c step_ch.c -lm
+step_ch.c(1403): (col. 5) remark: LOOP WAS VECTORIZED.
+step_ch.c(1292): (col. 7) remark: LOOP WAS VECTORIZED.
+step_ch.c(1247): (col. 5) remark: LOOP WAS VECTORIZED.
+step_ch.c(1232): (col. 3) remark: LOOP WAS VECTORIZED.
+step_ch.c(1220): (col. 3) remark: LOOP WAS VECTORIZED.
+step_ch.c(887): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+step_ch.c(1198): (col. 3) remark: LOOP WAS VECTORIZED.
+step_ch.c(1186): (col. 3) remark: LOOP WAS VECTORIZED.
+step_ch.c(475): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c phys.ffde.c -lm
+phys.ffde.c(948): (col. 5) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(948): (col. 5) remark: PARTIAL LOOP WAS VECTORIZED.
+phys.ffde.c(948): (col. 5) remark: PARTIAL LOOP WAS VECTORIZED.
+phys.ffde.c(190): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(366): (col. 5) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(598): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(598): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+phys.ffde.c(598): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+phys.ffde.c(602): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(603): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1556): (col. 7) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1095): (col. 7) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1147): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1148): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1150): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1151): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1493): (col. 7) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(1038): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(984): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(891): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(895): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(906): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(909): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(913): (col. 5) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(922): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(927): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(927): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(927): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(834): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(771): (col. 3) remark: BLOCK WAS VECTORIZED.
+phys.ffde.c(811): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(811): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+phys.ffde.c(811): (col. 3) remark: PARTIAL LOOP WAS VECTORIZED.
+phys.ffde.c(696): (col. 3) remark: BLOCK WAS VECTORIZED.
+phys.ffde.c(705): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(705): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(705): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(657): (col. 3) remark: BLOCK WAS VECTORIZED.
+phys.ffde.c(657): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(657): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(657): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(421): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.ffde.c(427): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c phys.coldgrmhd.c -lm
+phys.coldgrmhd.c(72): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(72): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(72): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(75): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(75): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(93): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(137): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(165): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+phys.coldgrmhd.c(518): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c eos.c -lm
+kazfulleos.c(3105): remark #128: loop is not reachable from preceding code
+    COMPFULLLOOP{
+    ^
+
+kazfulleos.c(4319): (col. 3) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(4331): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(4341): (col. 3) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(2999): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3024): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3027): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3165): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(2658): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(2660): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(4017): (col. 12) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3622): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3645): (col. 3) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(4209): (col. 3) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3739): (col. 7) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3740): (col. 7) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3766): (col. 7) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3959): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3961): (col. 7) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(3962): (col. 7) remark: LOOP WAS VECTORIZED.
+grbpwf99eos.c(216): (col. 3) remark: LOOP WAS VECTORIZED.
+grbpwf99eos.c(200): (col. 5) remark: LOOP WAS VECTORIZED.
+mignoneeos.c(235): (col. 3) remark: LOOP WAS VECTORIZED.
+mignoneeos.c(219): (col. 5) remark: LOOP WAS VECTORIZED.
+idealgaseos.c(192): (col. 3) remark: LOOP WAS VECTORIZED.
+idealgaseos.c(176): (col. 5) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(588): (col. 3) remark: BLOCK WAS VECTORIZED.
+kazfulleos.c(601): (col. 3) remark: BLOCK WAS VECTORIZED.
+kazfulleos.c(614): (col. 3) remark: BLOCK WAS VECTORIZED.
+kazfulleos.c(1121): (col. 38) remark: LOOP WAS VECTORIZED.
+kazfulleos.c(1231): (col. 4) remark: BLOCK WAS VECTORIZED.
+kazfulleos.c(1244): (col. 4) remark: BLOCK WAS VECTORIZED.
+kazfulleos.c(1279): (col. 4) remark: BLOCK WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c vchar.c -lm
+vchar.c(542): (col. 3) remark: LOOP WAS VECTORIZED.
+vchar.c(544): (col. 3) remark: LOOP WAS VECTORIZED.
+vchar.c(549): (col. 3) remark: LOOP WAS VECTORIZED.
+vchar.c(563): (col. 3) remark: LOOP WAS VECTORIZED.
+vchar.c(568): (col. 3) remark: LOOP WAS VECTORIZED.
+vchar.c(221): (col. 3) remark: LOOP WAS VECTORIZED.
+vchar.c(225): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c transforms.c -lm
+transforms.c(618): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(575): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(552): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(553): (col. 21) remark: LOOP WAS VECTORIZED.
+transforms.c(537): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(537): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(513): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(499): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(484): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(469): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(458): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(445): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(416): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(398): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(335): (col. 3) remark: BLOCK WAS VECTORIZED.
+transforms.c(339): (col. 3) remark: BLOCK WAS VECTORIZED.
+transforms.c(350): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(273): (col. 3) remark: BLOCK WAS VECTORIZED.
+transforms.c(277): (col. 3) remark: BLOCK WAS VECTORIZED.
+transforms.c(287): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(191): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(191): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(191): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(196): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(196): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(196): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(204): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(204): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(220): (col. 5) remark: BLOCK WAS VECTORIZED.
+transforms.c(220): (col. 5) remark: BLOCK WAS VECTORIZED.
+transforms.c(220): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(223): (col. 5) remark: BLOCK WAS VECTORIZED.
+transforms.c(223): (col. 5) remark: BLOCK WAS VECTORIZED.
+transforms.c(223): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(142): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(142): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(142): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(145): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(145): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(145): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(153): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(153): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(96): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(96): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(96): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(51): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(51): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(51): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(55): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(55): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(55): (col. 5) remark: LOOP WAS VECTORIZED.
+transforms.c(63): (col. 3) remark: LOOP WAS VECTORIZED.
+transforms.c(15): (col. 10) remark: LOOP WAS VECTORIZED.
+transforms.c(15): (col. 10) remark: LOOP WAS VECTORIZED.
+transforms.c(15): (col. 10) remark: LOOP WAS VECTORIZED.
+transforms.c(15): (col. 10) remark: LOOP WAS VECTORIZED.
+transforms.c(15): (col. 10) remark: LOOP WAS VECTORIZED.
+transforms.c(15): (col. 10) remark: LOOP WAS VECTORIZED.
+transforms.c(15): (col. 10) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c sources.c -lm
+sources.c(602): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c rescale_interp.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c gaussj.c -lm
+gaussj.c(13): (col. 3) remark: LOOP WAS VECTORIZED.
+gaussj.c(48): (col. 5) remark: LOOP WAS VECTORIZED.
+gaussj.c(50): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c lubksb.c -lm
+lubksb.c(13): (col. 7) remark: LOOP WAS VECTORIZED.
+lubksb.c(21): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c ludcmp.c -lm
+ludcmp.c(20): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c mnewt.c -lm
+mnewt.c(119): (col. 3) remark: LOOP WAS VECTORIZED.
+mnewt.c(169): (col. 7) remark: LOOP WAS VECTORIZED.
+mnewt.c(216): (col. 7) remark: LOOP WAS VECTORIZED.
+mnewt.c(221): (col. 7) remark: LOOP WAS VECTORIZED.
+mnewt.c(235): (col. 2) remark: LOOP WAS VECTORIZED.
+mnewt.c(261): (col. 2) remark: LOOP WAS VECTORIZED.
+mnewt.c(269): (col. 7) remark: LOOP WAS VECTORIZED.
+mnewt.c(200): (col. 2) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c nrutil.c -lm
+nrutil.c(191): (col. 3) remark: LOOP WAS VECTORIZED.
+nrutil.c(119): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c ranc.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c tensor.c -lm
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprimgen.c -lm
+utoprimgen.c(116): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprimgen.c(934): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprimgen.c(370): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprimgen.c(371): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprimgen.c(1141): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprimgen.c(1101): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprimgen.c(1041): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprimgen.c(856): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c dudp_calc_3vel.c -lm
+dudp_calc_3vel.c(48): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc_3vel.c(57): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc_3vel.c(62): (col. 5) remark: LOOP WAS VECTORIZED.
+dudp_calc_3vel.c(68): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc_3vel.c(84): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc_3vel.c(88): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c dudp_calc.c -lm
+dudp_calc.c(88): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(90): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(92): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(92): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(92): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(92): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(94): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(94): (col. 3) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(279): (col. 5) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(281): (col. 5) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(281): (col. 5) remark: LOOP WAS VECTORIZED.
+dudp_calc.c(286): (col. 33) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim.c -lm
+utoprim.c(627): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim.c(635): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_2d.c -lm
+utoprim_2d.c(50): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(62): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(65): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(71): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(74): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(93): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(158): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(166): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(167): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(178): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(203): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(302): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(303): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(683): (col. 7) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(822): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(822): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(828): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d.c(844): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_1d.c -lm
+utoprim_1d.c(1223): remark #111: statement is unreachable
+    if( first_call ) {
+    ^
+
+utoprim_1d.c(45): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(48): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(55): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(58): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(87): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(154): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(162): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(163): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(174): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(199): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(315): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d.c(316): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_1d_opt.c -lm
+utoprim_1d_opt.c(52): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(55): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(61): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(64): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(68): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_opt.c(93): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_ldz.c -lm
+utoprim_ldz.c(68): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_ldz.c(105): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_ldz.c(109): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_ldz.c(111): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_ldz.c(186): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_jon.c -lm
+utoprim_jon.c(1596): remark #111: statement is unreachable
+    return(0); // shouldn't get here -- only used if coldgrhd() used
+    ^
+
+utoprim_jon.c(238): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(250): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(253): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(1155): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(647): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(1367): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(1375): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(1379): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(1407): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_jon.c(774): (col. 5) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_1d_final.c -lm
+utoprim_1d_final.c(90): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(95): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(98): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(102): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(102): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(102): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(102): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(102): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(102): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_1d_final.c(102): (col. 9) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_2d_final.c -lm
+utoprim_2d_final.c(85): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(97): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(100): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(206): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(240): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(449): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(450): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(1397): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(1400): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(1401): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(1404): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(1419): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_2d_final.c(1448): (col. 7) remark: LOOP WAS VECTORIZED.
+icc -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -c utoprim_5d2_final.c -lm
+utoprim_5d2_final.c(407): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(408): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(430): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(98): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(98): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(98): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(98): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(98): (col. 9) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(174): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(179): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(180): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(273): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(287): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(287): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(638): (col. 7) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(1120): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(1124): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(766): (col. 3) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(806): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(830): (col. 7) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(837): (col. 7) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(902): (col. 2) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(935): (col. 5) remark: LOOP WAS VECTORIZED.
+utoprim_5d2_final.c(996): (col. 5) remark: LOOP WAS VECTORIZED.
+gcc  -Wall -O2  -DUSINGORANGE=0 -Wall -O2  -DUSINGORANGE=0 -c freespace.c -lm
+In file included from global.h:78,
+                 from decs.h:1,
+                 from freespace.c:1:
+global.loops.h:325:3: warning: multi-line comment
+gcc: -lm: linker input file unused because linking not done
+gcc: -lm: linker input file unused because linking not done
+gcc  -Wall -O2  -DUSINGORANGE=0 -Wall -O2  -DUSINGORANGE=0 -c tau_neededbyharm.c -lm
+gcc: -lm: linker input file unused because linking not done
+gcc: -lm: linker input file unused because linking not done
+icc      -O2 -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1  -DUSINGORANGE=0 -o grmhd init.o initbase.o initbase.gridsectioning.o restart.o set_arrays.o set_grid.o advance.o reconstructeno.o paraenohybrid.o flux.o  flux.mergedc2ea2cmethod.o higherorder_pointavg.o wavespeeds.o boundsflux.o fluxct.o fluxctstag.o fluxcompute.o fluxvpot.o bounds.o boundsint.o diag.o dump.o dumpgen.o dump_ener.o image.o fail.o fixup.o mpi_init.o mpi_fileio.o boundmpi.o boundmpiint.o interppoint.o interppoint.para.o interpline.o interpline.para.o interpline.mono.o interpline.jmono.o interpline.smono.o  main.o mytime.o metric.o metric_tools.o math_tools.o metric_selfgravity_or_evolvemetric.o coord.o phys.o step_ch.o phys.ffde.o phys.coldgrmhd.o eos.o vchar.o transforms.o sources.o rescale_interp.o gaussj.o lubksb.o ludcmp.o mnewt.o nrutil.o ranc.o tensor.o utoprimgen.o dudp_calc_3vel.o dudp_calc.o utoprim.o utoprim_2d.o utoprim_1d.o utoprim_1d_opt.o utoprim_ldz.o utoprim_jon.o utoprim_1d_final.o utoprim_2d_final.o utoprim_5d2_final.o freespace.o tau_neededbyharm.o -lm

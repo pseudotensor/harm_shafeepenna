@@ -1,0 +1,79 @@
+#!/bin/bash
+
+# login:
+# ssh tg802609@lonestar.tacc.utexas.edu
+
+# Docs:
+# http://www.tacc.utexas.edu/services/userguides/lonestar/
+
+# run using: bsub < bsub.batch
+# to check jobs: showq -u or bjobs
+
+#BSUB -o output.log
+# queues are: serial,normal,high,hero,development
+#BSUB -q development
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -B
+#BSUB -N
+#BSUB -u jmckinne@stanford.edu     #email
+#BSUB -P TG-AST080025N
+#BSUB -x                           #exclusive use of node
+
+#BSUB -J harm3drun1                # JOB name
+#BSUB -W 0:10                      # Wall time
+#BSUB -n 8                         # number of cores
+#BSUB -R 'span[ptile=4]'           # number of cores/node
+
+date
+
+# command line:
+# bsub -I -n 4 -W 0:05 -q development ibrun ./a.out 
+
+# cd $LS_SUBCWD                     #cd to directory of submission
+
+#################
+NCPUX1=2
+echo $NCPUX1
+NCPUX2=4
+echo $NCPUX2
+NCPUX3=1
+echo $NCPUX3
+#NTOT=$(($NCPUX1 * $NCPUX2 * $NCPUX3))
+NTOT=8
+echo $NTOT
+FILENAME="grmhd"
+echo $FILENAME
+DIRFILE="/home/01014/tg802609/harm3d/code1"
+echo $DIRFILE
+RUNDIR=$WORK/run1/
+echo $RUNDIR
+
+# must set total number of threads for openmpi
+export OMP_NUM_THREADS=$NTOT
+
+
+
+
+export BEFOREDIR=`pwd`
+mkdir -p $RUNDIR
+cd $RUNDIR
+
+mkdir -p dumps
+mkdir -p images
+cp $DIRFILE/$FILENAME .
+#wait
+chmod u+x $FILENAME
+
+
+################
+# OpenMPI does not use mpirun:
+#
+#./$FILENAME $NCPUX1 $NCPUX2 $NCPUX3 1 0 > $FILENAME.so
+ibrun ./$FILENAME $NCPUX1 $NCPUX2 $NCPUX3 > $FILENAME.so
+# serialrun ./a.out
+
+
+wait
+date
+

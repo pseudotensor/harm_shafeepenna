@@ -1,0 +1,70 @@
+main.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c main.c -lm
+mytime.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mytime.c -lm
+metric.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c metric.c -lm
+metric_tools.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c metric_tools.c -lm
+math_tools.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c math_tools.c -lm
+metric_selfgravity_or_evolvemetric.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c metric_selfgravity_or_evolvemetric.c -lm
+coord.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c coord.c -lm
+phys.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c phys.c -lm
+step_ch.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c step_ch.c -lm
+phys.ffde.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c phys.ffde.c -lm
+phys.coldgrmhd.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c phys.coldgrmhd.c -lm
+eos.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c eos.c -lm
+vchar.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c vchar.c -lm
+transforms.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c transforms.c -lm
+sources.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c sources.c -lm
+rescale_interp.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c rescale_interp.c -lm
+gaussj.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c gaussj.c -lm
+lubksb.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c lubksb.c -lm
+ludcmp.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c ludcmp.c -lm
+mnewt.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mnewt.c -lm
+nrutil.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c nrutil.c -lm
+ranc.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c ranc.c -lm
+tensor.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c tensor.c -lm
+utoprimgen.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprimgen.c -lm
+dudp_calc_3vel.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c dudp_calc_3vel.c -lm
+dudp_calc.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c dudp_calc.c -lm
+utoprim.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim.c -lm
+utoprim_2d.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_2d.c -lm
+utoprim_1d.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_1d.c -lm
+utoprim_1d_opt.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_1d_opt.c -lm
+utoprim_ldz.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_ldz.c -lm
+utoprim_jon.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_jon.c -lm
+utoprim_1d_final.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_1d_final.c -lm
+utoprim_2d_final.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_2d_final.c -lm
+utoprim_5d2_final.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c utoprim_5d2_final.c -lm

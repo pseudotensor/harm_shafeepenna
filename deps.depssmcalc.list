@@ -1,0 +1,1 @@
+smcalc.o: smcalc.c para_and_paraenohybrid.h
