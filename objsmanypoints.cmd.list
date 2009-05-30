@@ -1,0 +1,92 @@
+init.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c init.c -lm
+initbase.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c initbase.c -lm
+initbase.boundloop.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c initbase.boundloop.c -lm
+initbase.enerregions.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c initbase.enerregions.c -lm
+initbase.tools.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c initbase.tools.c -lm
+initbase.gridsectioning.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c initbase.gridsectioning.c -lm
+restart.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c restart.c -lm
+restart.checks.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c restart.checks.c -lm
+set_arrays.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c set_arrays.c -lm
+mpi_set_arrays.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mpi_set_arrays.c -lm
+set_grid.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c set_grid.c -lm
+advance.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c advance.c -lm
+reconstructeno.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c reconstructeno.c -lm
+paraenohybrid.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c paraenohybrid.c -lm
+flux.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c flux.c -lm
+flux.mergedc2ea2cmethod.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c flux.mergedc2ea2cmethod.c -lm
+higherorder_pointavg.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c higherorder_pointavg.c -lm
+wavespeeds.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c wavespeeds.c -lm
+boundsflux.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c boundsflux.c -lm
+fluxct.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c fluxct.c -lm
+fluxctstag.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c fluxctstag.c -lm
+fluxcompute.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c fluxcompute.c -lm
+fluxvpot.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c fluxvpot.c -lm
+bounds.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c bounds.c -lm
+boundsint.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c boundsint.c -lm
+diag.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c diag.c -lm
+dump.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c dump.c -lm
+dumpgen.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c dumpgen.c -lm
+dump_ener.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c dump_ener.c -lm
+image.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c image.c -lm
+fail.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c fail.c -lm
+fixup.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c fixup.c -lm
+mpi_init.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mpi_init.c -lm
+mpi_init_grmhd.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mpi_init_grmhd.c -lm
+mpi_fileio.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mpi_fileio.c -lm
+mpi_fprintfs.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mpi_fprintfs.c -lm
+boundmpi.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c boundmpi.c -lm
+boundmpiint.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c boundmpiint.c -lm
+mpi_grmhd_grray_liaison.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c mpi_grmhd_grray_liaison.c -lm
+interppoint.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c interppoint.c -lm
+interppoint.para.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c interppoint.para.c -lm
+interpline.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c interpline.c -lm
+interpline.para.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c interpline.para.c -lm
+interpline.mono.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c interpline.mono.c -lm
+interpline.jmono.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c interpline.jmono.c -lm
+interpline.smono.o :
+	mpicc -O3 -funroll-loops -DUSINGICC=0 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=1 -c interpline.smono.c -lm

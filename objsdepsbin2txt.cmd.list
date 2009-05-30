@@ -1,0 +1,2 @@
+bin2txt.o :
+	mpicc -cc=icc -DUSINGICC=1 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=0 -O2 -finline -finline-functions -ip -fno-alias -unroll -openmp -Wall -Wcheck -Wshadow -w2 -wd=175,177,279,593,869,810,981,1418,1419,310,1572 -DUSINGICC=1 -DUSINGORANGE=0 -DUSINGMPIAVOIDFORK=0 -c bin2txt.c -lm -I /usr/include/hdf/ -L /usr/lib64/hdf/ -lmfhdf -ldf -ljpeg -lz -lv5d

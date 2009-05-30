@@ -1,0 +1,356 @@
+main.o: main.c defs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+mytime.o: mytime.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+metric.o: metric.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+metric_tools.o: metric_tools.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+math_tools.o: math_tools.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+metric_selfgravity_or_evolvemetric.o:  \
+ metric_selfgravity_or_evolvemetric.c decs.h global.grmhd.h \
+  global.general.h SwapEndian.h mytime.h global.realdef.h \
+  global.nondepnmemonics.h metric.h coord.h global.stepch.h definit.h \
+  init.h global.depnmemonics.h global.defnprs.h global.loops.h \
+  global.variousmacros.h global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+coord.o: coord.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+phys.o: phys.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+step_ch.o: step_ch.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+phys.ffde.o: phys.ffde.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+phys.coldgrmhd.o: phys.coldgrmhd.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h u2p_defs.h \
+  utoprim_jon_eos.c
+eos.o: eos.c decs.h global.grmhd.h global.general.h SwapEndian.h mytime.h \
+  global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h grbpwf99eos.c \
+  idealgaseos.c mignoneeos.c kazfulleos.c f2c.h tau_neededbyharm.P
+vchar.o: vchar.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+transforms.o: transforms.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+sources.o: sources.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+rescale_interp.o: rescale_interp.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+gaussj.o: gaussj.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+lubksb.o: lubksb.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+ludcmp.o: ludcmp.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+mnewt.o: mnewt.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+nrutil.o: nrutil.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+ranc.o: ranc.c global.h global.general.h SwapEndian.h mytime.h \
+  global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h
+tensor.o: tensor.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+utoprimgen.o: utoprimgen.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+dudp_calc_3vel.o: dudp_calc_3vel.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+dudp_calc.o: dudp_calc.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+utoprim.o: utoprim.c decs.h global.grmhd.h global.general.h SwapEndian.h \
+  mytime.h global.realdef.h global.nondepnmemonics.h metric.h coord.h \
+  global.stepch.h definit.h init.h global.depnmemonics.h global.defnprs.h \
+  global.loops.h global.variousmacros.h global.fieldmacros.h \
+  global.structs.h mympi.h /usr/local/mpich2//include/mpi.h \
+  /usr/local/mpich2//include/mpio.h /usr/local/mpich2//include/mpi.h \
+  global.mpi_grmhd_grray_liaison.h global.gridsectioning.h \
+  global.comploops.h global.funcdeclare.h global.other.h superdefs.h \
+  defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+utoprim_2d.o: utoprim_2d.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h utoprim_2d.h \
+  utoprim_1d2d.h
+utoprim_1d.o: utoprim_1d.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h utoprim_1d.h \
+  utoprim_1d2d.h
+utoprim_1d_opt.o: utoprim_1d_opt.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h utoprim_1d_opt.h
+utoprim_ldz.o: utoprim_ldz.c decs.h global.grmhd.h global.general.h \
+  SwapEndian.h mytime.h global.realdef.h global.nondepnmemonics.h \
+  metric.h coord.h global.stepch.h definit.h init.h global.depnmemonics.h \
+  global.defnprs.h global.loops.h global.variousmacros.h \
+  global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
+utoprim_jon.o: utoprim_jon.c u2p_defs.h decs.h global.grmhd.h \
+  global.general.h SwapEndian.h mytime.h global.realdef.h \
+  global.nondepnmemonics.h metric.h coord.h global.stepch.h definit.h \
+  init.h global.depnmemonics.h global.defnprs.h global.loops.h \
+  global.variousmacros.h global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h utoprim_jon.h u2p_util.c \
+  utoprim_jon_eos.c
+utoprim_1d_final.o: utoprim_1d_final.c u2p_defs.h decs.h global.grmhd.h \
+  global.general.h SwapEndian.h mytime.h global.realdef.h \
+  global.nondepnmemonics.h metric.h coord.h global.stepch.h definit.h \
+  init.h global.depnmemonics.h global.defnprs.h global.loops.h \
+  global.variousmacros.h global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h u2p_util.c \
+  utoprim_jon_eos.c
+utoprim_2d_final.o: utoprim_2d_final.c u2p_defs.h decs.h global.grmhd.h \
+  global.general.h SwapEndian.h mytime.h global.realdef.h \
+  global.nondepnmemonics.h metric.h coord.h global.stepch.h definit.h \
+  init.h global.depnmemonics.h global.defnprs.h global.loops.h \
+  global.variousmacros.h global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h u2p_util.c \
+  utoprim_jon_eos.c
+utoprim_5d2_final.o: utoprim_5d2_final.c u2p_defs.h decs.h global.grmhd.h \
+  global.general.h SwapEndian.h mytime.h global.realdef.h \
+  global.nondepnmemonics.h metric.h coord.h global.stepch.h definit.h \
+  init.h global.depnmemonics.h global.defnprs.h global.loops.h \
+  global.variousmacros.h global.fieldmacros.h global.structs.h mympi.h \
+  /usr/local/mpich2//include/mpi.h /usr/local/mpich2//include/mpio.h \
+  /usr/local/mpich2//include/mpi.h global.mpi_grmhd_grray_liaison.h \
+  global.gridsectioning.h global.comploops.h global.funcdeclare.h \
+  global.other.h superdefs.h defs.general.h mpidefs.h supermpidefs.h \
+  mpidefs.mpi_grmhd_grray_liaison.h defs.user.h
