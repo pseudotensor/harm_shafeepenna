@@ -194,16 +194,18 @@ int diag(int call_code, FTYPE localt, long localnstep, long localrealnstep)
   if(dodumpgen[DTENER]||dordump||(call_code==FINAL_OUT)||(call_code==INIT_OUT)){ // need integratd quantities for restart dump, but don't write them to ener file.
 
     dump_ener(dodumpgen[DTENER],dordump,call_code);
-    if(COMPUTEFRDOT){
-      if(dodumpgen[DTENER]||(call_code==FINAL_OUT)||(call_code==INIT_OUT)){
+
+    if(dodumpgen[DTENER]||(call_code==FINAL_OUT)||(call_code==INIT_OUT)){
+      if(COMPUTEFRDOT){
 	frdotout(); // need to include all terms and theta fluxes on horizon/outer edge at some point GODMARK
       }
+
+      whichDT=DTENER;
+      // below is really floor to nearest integer plus 1
+      dumpcgen[whichDT] = 1 + MAX(0,(long long int)((localt-tdumpgen[whichDT])/DTdumpgen[whichDT]));
+      tdumpgen[whichDT] = (ROUND2LONGLONGINT(tdumpgen[whichDT]/DTdumpgen[whichDT]) + dumpcgen[whichDT])*DTdumpgen[whichDT];
+      tlastgen[DTENER]=localt;
     }
-    whichDT=DTENER;
-    // below is really floor to nearest integer plus 1
-    dumpcgen[whichDT] = 1 + MAX(0,(long long int)((localt-tdumpgen[whichDT])/DTdumpgen[whichDT]));
-    tdumpgen[whichDT] = (ROUND2LONGLONGINT(tdumpgen[whichDT]/DTdumpgen[whichDT]) + dumpcgen[whichDT])*DTdumpgen[whichDT];
-    tlastgen[DTENER]=localt;
   }
 
 
